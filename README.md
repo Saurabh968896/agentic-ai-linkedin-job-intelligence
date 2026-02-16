@@ -18,24 +18,6 @@ Filters noise
 Stores structured results
 Prepares for automation & scheduling
 
-**🧠 System Architecture**
-Agentic_AI_Job_System/
-│
-├── config/              # System configurations
-├── data/
-│   ├── raw/             # Raw scraped job data
-│   ├── processed/       # Cleaned & structured jobs
-│
-├── modules/
-│   ├── scraper.py       # Job data collection
-│   ├── processor.py     # Data cleaning & structuring
-│   ├── scorer.py        # Relevance scoring logic
-│   ├── storage.py       # Save jobs to CSV/JSON
-│
-├── scheduler/           # Windows Task Scheduler logic
-├── logs/                # System logs
-│
-└── main.py              # Agent controller
 
 **⚙️ Key Features**
 
